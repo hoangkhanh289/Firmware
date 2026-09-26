@@ -1,0 +1,55 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-09-27T02:00:00Z",
+  "firmwares": [
+    {
+      "id": "fw_xiaozhi_s3",
+      "name": "Xiaozhi S3 Firmware",
+      "version": "v1.0.0",
+      "chip": "ESP32-S3",
+      "size": "1.8 MB",
+      "manifest": "/firmwares/xiaozhi_s3/manifest.json",
+      "binUrl": "/firmwares/xiaozhi_s3/xiaozhi.bin",
+      "descVi": "Firmware trợ lý giọng nói thông minh Xiaozhi S3...",
+      "descEn": "Official Xiaozhi S3 smart voice assistant firmware...",
+      "tags": ["ESP32-S3", "Voice AI", "Wi-Fi", "ST7789"]
+    },
+    {
+      "id": "fw_blink_esp32_1000ms",
+      "name": "Blink Firmware for ESP32",
+      "version": "v1.0.0",
+      "chip": "ESP32",
+      "size": "1.2 MB",
+      "manifest": "/firmwares/blink_esp32/manifest.json",
+      "binUrl": "/firmwares/blink_esp32/blink.bin",
+      "descVi": "Firmware trợ lý giọng nói thông minh Xiaozhi S3...",
+      "descEn": "Official Xiaozhi S3 smart voice assistant firmware...",
+      "tags": ["ESP32", "Blink", "Wi-Fi"]
+    },
+    {
+      "id": "fw_blink_esp32_100ms",
+      "name": "Blink Firmware for ESP32",
+      "version": "v1.0.0",
+      "chip": "ESP32",
+      "size": "1.2 MB",
+      "manifest": "/firmwares/blink_esp32/manifest.json",
+      "binUrl": "/firmwares/blink_esp32/blink.bin",
+      "descVi": "Firmware trợ lý giọng nói thông minh Xiaozhi S3...",
+      "descEn": "Official Xiaozhi S3 smart voice assistant firmware...",
+      "tags": ["ESP32", "Blink", "Wi-Fi"]
+    }
+  ],
+  "tools": [
+    {
+      "id": "tool_flash_gui",
+      "name": "ESP32 Flash Tool (GUI)",
+      "version": "v1.0.2",
+      "platform": ["Windows", "Linux"],
+      "size": "5.1 MB",
+      "checksum": "sha256:d4c8a7e3b9f10a82",
+      "downloadUrl": "https://www.espressif.com/en/support/download/other-tools",
+      "descVi": "Phần mềm giao diện đồ họa nạp flash cho dòng vi điều khiển ESP32...",
+      "descEn": "Standalone GUI desktop flash tool for ESP32..."
+    }
+  ]
+}
