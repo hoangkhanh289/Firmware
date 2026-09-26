@@ -3,67 +3,29 @@
   "updatedAt": "2026-09-27T02:30:00Z",
   "firmwares": [
     {
-      "id": "fw_rp2350b_led",
-      "name": "RP2350B Firmware LED (ESP32)",
+      "id": "ESP32_GREEN",
+      "name": "ESP32_GREEN",
       "version": "v1.0.0",
       "chip": "ESP32",
       "size": "258 KB",
-      "manifest": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/RP2350B_Firmware_led/manifest.json",
-      "binUrl": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/RP2350B_Firmware_led/RP2350B_Firmware_led.ino.bin",
+      "manifest": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_GREEN/manifest.json",
+      "binUrl": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_GREEN/RP2350B_Firmware_led.ino.bin",
       "descVi": "Firmware điều khiển LED biên dịch từ Arduino IDE cho bo mạch ESP32 giao tiếp RP2350B.",
       "descEn": "LED control firmware compiled from Arduino IDE for ESP32 board interfacing with RP2350B.",
       "tags": ["ESP32", "Arduino", "LED", "RP2350B"]
     },
-    {
-      "id": "fw_blink_red",
-      "name": "ESP32 Blink LED Đỏ (RED)",
+        {
+      "id": "ESP32_RED",
+      "name": "ESP32_RED",
       "version": "v1.0.0",
       "chip": "ESP32",
       "size": "258 KB",
-      "manifest": "",
-      "binUrl": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/Blink/RED.bin",
-      "descVi": "Firmware chớp nháy LED màu Đỏ kiểm tra GPIO vi điều khiển ESP32.",
-      "descEn": "Test firmware blinking RED LED on ESP32 GPIO pin.",
-      "tags": ["ESP32", "Blink", "RED", "Test"]
-    },
-    {
-      "id": "fw_blink_green",
-      "name": "ESP32 Blink LED Xanh Lá (GREEN)",
-      "version": "v1.0.0",
-      "chip": "ESP32",
-      "size": "258 KB",
-      "manifest": "",
-      "binUrl": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/Blink/Green.bin",
-      "descVi": "Firmware chớp nháy LED màu Xanh Lá kiểm tra GPIO vi điều khiển ESP32.",
-      "descEn": "Test firmware blinking GREEN LED on ESP32 GPIO pin.",
-      "tags": ["ESP32", "Blink", "GREEN", "Test"]
-    },
-    {
-      "id": "fw_xiaozhi_s3",
-      "name": "Xiaozhi S3 Firmware",
-      "version": "v1.0.0",
-      "chip": "ESP32-S3",
-      "size": "1.8 MB",
-      "manifest": "/firmwares/xiaozhi_s3/manifest.json",
-      "binUrl": "/firmwares/xiaozhi_s3/xiaozhi.bin",
-      "descVi": "Firmware trợ lý giọng nói thông minh Xiaozhi S3, kết nối Wi-Fi thời gian thực, phản hồi âm thanh và tự chẩn đoán phần cứng.",
-      "descEn": "Official Xiaozhi S3 smart voice assistant firmware with low-latency Wi-Fi, audio processing, and hardware diagnostics.",
-      "tags": ["ESP32-S3", "Voice AI", "Wi-Fi", "ST7789"],
-      "documentationUrl": "https://support.aiotlab.space/#/downloads"
-    },
-    {
-      "id": "fw_dasai_mochi",
-      "name": "DASAI-MOCHI 240x240",
-      "version": "v2.1",
-      "chip": "ESP32",
-      "size": "980 KB",
-      "manifest": "/firmwares/dasai-mochi/manifest.json",
-      "binUrl": "/firmwares/dasai-mochi/dasai_mochi_free.ino.merged.bin",
-      "descVi": "Firmware hoạt ảnh biểu cảm tương tác Dasai-Mochi trên màn hình tròn ST7789 độ phân giải 240x240 qua cổng SPI.",
-      "descEn": "Interactive facial animation firmware for circular ST7789 240x240 LCD screens driven via high-speed SPI.",
-      "tags": ["ESP32", "ST7789", "Display", "240x240"],
-      "documentationUrl": "https://support.aiotlab.space/#/downloads"
-    }
+      "manifest": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_RED/manifest.json",
+      "binUrl": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_RED/RP2350B_Firmware_led.ino.bin",
+      "descVi": "Firmware điều khiển LED biên dịch từ Arduino IDE cho bo mạch ESP32 giao tiếp RP2350B.",
+      "descEn": "LED control firmware compiled from Arduino IDE for ESP32 board interfacing with RP2350B.",
+      "tags": ["ESP32", "Arduino", "LED", "RP2350B"]
+    } 
   ],
   "tools": [
     {
