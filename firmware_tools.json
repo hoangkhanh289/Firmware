@@ -10,11 +10,13 @@
       "size": "258 KB",
       "manifest": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_GREEN/manifest.json",
       "binUrl": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_GREEN/RP2350B_Firmware_led.ino.bin",
+      "image": "/images/pic01.jpg",
+      "pdfUrl": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
       "descVi": "Firmware điều khiển LED biên dịch từ Arduino IDE cho bo mạch ESP32 giao tiếp RP2350B.",
       "descEn": "LED control firmware compiled from Arduino IDE for ESP32 board interfacing with RP2350B.",
       "tags": ["ESP32", "Arduino", "LED", "RP2350B"]
     },
-        {
+    {
       "id": "ESP32_RED",
       "name": "ESP32_RED",
       "version": "v1.0.0",
@@ -22,10 +24,12 @@
       "size": "258 KB",
       "manifest": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_RED/manifest.json",
       "binUrl": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_RED/RP2350B_Firmware_led.ino.bin",
+      "image": "/images/pic02.jpg",
+      "pdfUrl": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
       "descVi": "Firmware điều khiển LED biên dịch từ Arduino IDE cho bo mạch ESP32 giao tiếp RP2350B.",
       "descEn": "LED control firmware compiled from Arduino IDE for ESP32 board interfacing with RP2350B.",
       "tags": ["ESP32", "Arduino", "LED", "RP2350B"]
-    } 
+    }
   ],
   "tools": [
     {

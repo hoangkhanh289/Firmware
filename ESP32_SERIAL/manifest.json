@@ -1,0 +1,28 @@
+{
+  "name": "RP2350B_Firmware_led",
+  "version": "1.0.0",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        {
+          "path": "RP2350B_Firmware_led.ino.bootloader.bin",
+          "offset": 4096
+        },
+        {
+          "path": "RP2350B_Firmware_led.ino.partitions.bin",
+          "offset": 32768
+        },
+        {
+          "path": "boot_app0.bin",
+          "offset": 57344
+        },
+        {
+          "path": "RP2350B_Firmware_led.ino.bin",
+          "offset": 65536
+        }
+      ]
+    }
+  ]
+}
