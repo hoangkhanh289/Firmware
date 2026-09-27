@@ -29,20 +29,21 @@
       "descVi": "Firmware điều khiển LED biên dịch từ Arduino IDE cho bo mạch ESP32 giao tiếp RP2350B.",
       "descEn": "LED control firmware compiled from Arduino IDE for ESP32 board interfacing with RP2350B.",
       "tags": ["ESP32", "Arduino", "LED", "RP2350B"]
-    },
+    }
+    ,
     {
       "id": "ESP32_SERIAL",
       "name": "ESP32_SERIAL",
       "version": "v1.0.0",
       "chip": "ESP32",
-      "size": "263 KB",
+      "size": "258 KB",
       "manifest": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_SERIAL/manifest.json",
       "binUrl": "https://raw.githubusercontent.com/hoangkhanh289/Firmware/main/ESP32_SERIAL/RP2350B_Firmware_led.ino.bin",
-      "image": "/images/pic03.jpg",
+      "image": "/images/pic02.jpg",
       "pdfUrl": "https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf",
-      "descVi": "Firmware Serial giao tiếp RP2350B cho bo mạch ESP32 biên dịch từ Arduino IDE.",
-      "descEn": "Serial communication firmware interfacing ESP32 with RP2350B compiled from Arduino IDE.",
-      "tags": ["ESP32", "Serial", "Arduino", "RP2350B"]
+      "descVi": "Firmware điều khiển LED biên dịch từ Arduino IDE cho bo mạch ESP32 giao tiếp RP2350B.",
+      "descEn": "LED control firmware compiled from Arduino IDE for ESP32 board interfacing with RP2350B.",
+      "tags": ["ESP32", "Arduino", "LED", "RP2350B"]
     }
   ],
   "tools": [
@@ -84,19 +85,6 @@
       "descVi": "Công cụ dòng lệnh chuyên dụng cho dây chuyền sản xuất: nạp firmware đồng thời hàng loạt thiết bị, cài đặt chứng chỉ số và đăng ký cloud.",
       "descEn": "Factory-grade CLI toolchain for concurrent batch device flashing, certificate configuration, and cloud provisioning.",
       "category": "tool"
-    },
-    {
-      "id": "tool_usb_drivers",
-      "name": "CH340 & CP210x USB Drivers",
-      "version": "v3.8 / v10.1",
-      "platform": ["Windows", "macOS"],
-      "size": "3.4 MB",
-      "releaseDate": "2024-08-20",
-      "checksum": "sha256:b891fc22d10378ea",
-      "downloadUrl": "https://www.silabs.com/developers/usb-to-uart-bridge-vcp-drivers",
-      "descVi": "Bộ driver cổng COM ảo (VCP) cho các chip giao tiếp USB-UART phổ biến như CH340, CP2102, CP2104 trên các bo mạch vi điều khiển.",
-      "descEn": "Official Virtual COM Port (VCP) drivers for CH340 and Silicon Labs CP210x USB-to-UART bridge controller chips.",
-      "category": "driver"
     }
   ]
 }
