@@ -1,0 +1,21 @@
+PCB Signal Analyzer - Phần Mềm Phân Tích & Giải Mã Giao Thức Tín Hiệu Số
+
+[TỔNG QUAN]
+PCB Signal Analyzer là ứng dụng máy tính đa nền tảng chuyên nghiệp phục vụ việc đo đạc, hiển thị dạng sóng thời gian thực và tự động giải mã các giao thức truyền thông nhúng từ các thiết bị phần cứng logic analyzer và máy hiện sóng (oscilloscope).
+
+[THÔNG SỐ KỸ THUẬT]
+- Nền tảng: Windows 10/11 (x64, ARM64), macOS (Apple Silicon / Intel), Linux (Ubuntu/Debian)
+- Tần số lấy mẫu hỗ trợ: Lên đến 500 MS/s tùy phần cứng kết nối (USB 3.0 / USB 2.0 High-Speed)
+- Bộ giải mã giao thức tích hợp: SPI, I2C, UART/USART, CAN 2.0B / CAN-FD, RS485 Modbus, I2S, 1-Wire
+- Công cụ tính toán DSP: Phân tích phổ FFT, đo độ rộng xung Jitter, kiểm tra thời gian đáp ứng Setup/Hold
+- Định dạng xuất dữ liệu: CSV, VCD (Value Change Dump), JSON, PCAP (cho giao thức mạng)
+
+[TÍNH NĂNG NỔI BẬT]
+- Giao diện trực quan với khả năng zoom mượt mà hàng triệu mẫu xung mà không giật lag.
+- Bộ lọc tìm kiếm thông minh: Tìm kiếm theo giá trị byte, địa chỉ I2C, frame ID của CAN bus hoặc lỗi CRC.
+- Bộ kích hoạt nâng cao (Triggering): Kích hoạt theo chuỗi ký tự, thời gian xung chờ hoặc điều kiện cạnh.
+- Khả năng viết script giải mã tùy chỉnh bằng Python hoặc JavaScript.
+
+[ỨNG DỤNG TIÊU BIỂU]
+- Phát hiện lỗi mất gói tin, xung gai phản xạ và sai lệch timing trên đường bus mạch in PCB.
+- Kiểm thử và xác thực sự tuân thủ chuẩn giao thức khi phát triển driver thiết bị ngoại vi.

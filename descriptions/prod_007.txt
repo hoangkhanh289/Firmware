@@ -1,0 +1,22 @@
+RTOS Kernel Module - Nhân Hệ Điều Hành Thời Gian Thực Hiệu Năng Cao
+
+[TỔNG QUAN]
+RTOS Kernel Module là nhân hệ điều hành thời gian thực tiền thu hồi (preemptive real-time kernel) được thiết kế siêu gọn nhẹ và tối ưu hóa cao độ cho họ vi điều khiển ARM Cortex-M, đảm bảo tính tất định và đáp ứng thời gian thực nghiêm ngặt.
+
+[THÔNG SỐ KỸ THUẬT]
+- Kiến trúc CPU: ARM Cortex-M0/M0+/M3/M4/M7/M33 (hỗ trợ tập lệnh Thumb-2 và FPU phần cứng)
+- Thời gian chuyển đổi ngữ cảnh (Context switch): < 750ns ở xung nhịp 168MHz
+- Độ trễ phản hồi ngắt (Interrupt Latency): < 15 chu kỳ xung nhịp CPU
+- Dung lượng bộ nhớ: Nhân tối thiểu chỉ chiếm 2.4KB Flash ROM và dưới 800 Bytes RAM hệ thống
+- Cơ chế đồng bộ: Mutex (hỗ trợ chống đảo ngược mức ưu tiên Priority Inheritance), Binary & Counting Semaphore, Message Queue, Event Flags
+- Định thời: Tickless Idle tiết kiệm năng lượng tối đa khi hệ thống rảnh rỗi
+
+[TÍNH NĂNG NỔI BẬT]
+- Lập lịch ưu tiên hoàn toàn tất định (Deterministic Priority Preemption) với 64 mức ưu tiên tác vụ.
+- Hỗ trợ MPU (Memory Protection Unit) ngăn ngừa việc tràn ngăn xếp (Stack Overflow) làm sập hệ thống.
+- Tích hợp công cụ giám sát hiệu suất CPU, đo lường tỷ lệ sử dụng ngăn xếp của từng tác vụ trong thời gian thực.
+- Tuân thủ chuẩn lập trình an toàn MISRA-C và tài liệu hướng dẫn chuyển đổi dễ dàng từ FreeRTOS.
+
+[ỨNG DỤNG TIÊU BIỂU]
+- Các hệ thống điều khiển chuyển động động cơ servo, biến tần đòi hỏi độ chính xác microsecond.
+- Bộ điều khiển y tế, thiết bị bay không người lái (drone) và hệ thống lái tự động.

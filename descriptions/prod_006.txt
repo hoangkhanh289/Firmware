@@ -1,0 +1,22 @@
+Device Provisioning CLI - Bộ Công Cụ Nạp & Cấp Phát Thiết Bị Hàng Loạt
+
+[TỔNG QUAN]
+Device Provisioning CLI là công cụ dòng lệnh tốc độ cao dành cho dây chuyền sản xuất công nghiệp và nhà máy gia công điện tử. Tự động hóa quy trình nạp firmware, kiểm tra chức năng mạch, ghi nạp chứng chỉ mã hóa và kích hoạt thiết bị lên Cloud.
+
+[THÔNG SỐ KỸ THUẬT]
+- Giao tiếp phần cứng: JTAG / SWD (thông qua J-Link, CMSIS-DAP, ST-Link), UART/USB CDC, USB DFU
+- Số cổng nạp đồng thời: Tối đa 64 thiết bị song song (Multi-thread, non-blocking I/O)
+- Nền tảng thực thi: Windows x64, Linux x64/ARM (chạy được trên máy tính nhúng x86 và Raspberry Pi)
+- Định dạng firmware: .bin, .hex, .elf, .uf2, .dfu
+- Khóa bảo mật: Hỗ trợ nạp eFuse / OTP, khóa Secure Boot và kích hoạt Flash Encryption tự động
+- Tốc độ nạp: Tối đa hóa băng thông bus (nạp 4MB Flash trong < 3.2 giây qua UART baudrate 2Mbps)
+
+[TÍNH NĂNG NỔI BẬT]
+- Tự động phát hiện khi thiết bị được cắm vào dock nạp (Auto-detect & Flash), công nhân không cần nhấn nút.
+- Tạo mã MAC duy nhất, tạo chứng chỉ thiết bị X.509 và đăng ký tự động với AWS IoT Core / Azure IoT Hub.
+- Xuất báo cáo kết quả nạp dạng JSON, CSV và đẩy dữ liệu thống kê trực tiếp về hệ thống MES của nhà máy.
+- Tự động dừng và cô lập thiết bị lỗi (Pass/Fail binning) tránh nguy cơ xuất xưởng sản phẩm hỏng.
+
+[ỨNG DỤNG TIÊU BIỂU]
+- Dây chuyền sản xuất và xuất xưởng thiết bị gia dụng thông minh, công tơ và định vị GPS.
+- Quản lý cấp phát khóa bảo mật bí mật cho các thiết bị thanh toán và ngân hàng.

@@ -1,0 +1,22 @@
+Embedded Logger SDK - Thư Viện Ghi Log Siêu Nhẹ Cho Hệ Thống Nhúng
+
+[TỔNG QUAN]
+Embedded Logger SDK là bộ công cụ ghi log và chẩn đoán thời gian thực hiệu năng cao, tối ưu tuyệt đối cho vi điều khiển có tài nguyên hạn chế. Sử dụng kiến trúc bộ nhớ đệm tròn (Circular Ring Buffer) không phân mảnh bộ nhớ (Zero dynamic allocation).
+
+[THÔNG SỐ KỸ THUẬT]
+- Nền tảng hỗ trợ: Mọi kiến trúc C/C++ (ARM Cortex-M0/M3/M4/M7, RISC-V, ESP-IDF, AVR)
+- Bộ nhớ RAM tiêu thụ: Tùy biến từ 512 Bytes đến 4KB RAM tĩnh
+- Tốc độ xử lý: < 120 chu kỳ lệnh CPU cho mỗi sự kiện log nhị phân
+- Kênh xuất dữ liệu (Sinks): UART, SEGGER RTT, SPI Flash Log, UDP Syslog, SD Card
+- Mức độ log (Levels): TRACE, DEBUG, INFO, WARN, ERROR, FATAL
+- Định dạng xuất: Plain text màu ANSI, Structured JSON hoặc Compact Binary Packed
+
+[TÍNH NĂNG NỔI BẬT]
+- Thiết kế Lock-free / Interrupt-safe, an toàn khi ghi log ngay bên trong trình phục vụ ngắt (ISR).
+- Hỗ trợ lọc log động theo module (tag) và mức độ nghiêm trọng tại thời điểm runtime mà không cần compile lại.
+- Tự động trích xuất Timestamp độ phân giải microsecond, tên hàm và số dòng mã nguồn.
+- Chế độ ghi Crash Dump lưu lại callstack và thanh ghi CPU vào bộ nhớ không bay hơi khi xảy ra lỗi HardFault.
+
+[ỨNG DỤNG TIÊU BIỂU]
+- Gỡ lỗi và giám sát hành vi firmware trên các thiết bị nhúng chạy pin hoặc hệ thống y tế.
+- Thu thập nhật ký vận hành hộp đen trên thiết bị viễn thông công nghiệp và biến tần năng lượng.
