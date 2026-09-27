@@ -1,0 +1,25 @@
+Modbus Gateway X4 - Cổng Chuyển Đổi Công Nghiệp Đa Năng
+
+[TỔNG QUAN]
+Modbus Gateway X4 là thiết bị chuyển đổi giao thức truyền thông chuyên dụng trong môi trường công nghiệp nặng. Thiết bị cho phép kết nối liền mạch giữa các mạng cảm biến RS485/RS232 chuẩn Modbus RTU với hạ tầng mạng Ethernet / IP chuẩn Modbus TCP.
+
+[THÔNG SỐ KỸ THUẬT]
+- Bộ vi xử lý: ARM Cortex-M4 32-bit xung nhịp 168MHz
+- Cổng truyền thông nối tiếp: 4 cổng RS485/RS232 độc lập
+- Mức cách ly: Cách ly quang điện tử 2.5kV trên từng kênh truyền
+- Cổng mạng Ethernet: 10/100 Mbps RJ45 tự động đảo chiều MDI/MDIX
+- Điện áp hoạt động: 9V - 36V DC dải rộng (có bảo vệ ngược cực và chống sét lan truyền)
+- Tiêu thụ điện năng: < 3.5W
+- Vỏ hộp: Vỏ hợp kim nhôm định hình chuẩn DIN-Rail 35mm
+- Nhiệt độ vận hành: -40°C đến +105°C
+
+[TÍNH NĂNG NỔI BẬT]
+- Hỗ trợ chuyển đổi song công Modbus RTU Master/Slave sang Modbus TCP Server/Client.
+- Chế độ hoạt động đa dạng: Virtual COM port (VCOM), TCP Server, TCP Client, UDP.
+- Tích hợp bộ đệm lưu trữ tạm thời chống mất mát dữ liệu khi nghẽn mạng cục bộ.
+- Cấu hình trực tiếp dễ dàng thông qua trình duyệt Web (Web GUI nhúng) hoặc công cụ phần mềm.
+
+[ỨNG DỤNG TIÊU BIỂU]
+- Hệ thống SCADA giám sát năng lượng, nhà máy xử lý nước và tự động hóa tòa nhà (BMS).
+- Thu thập dữ liệu từ các đồng hồ đo điện đa năng, biến tần inverter, PLC Siemens, Mitsubishi.
+- Tích hợp dữ liệu dây chuyền sản xuất về hệ thống ERP / MES đám mây.

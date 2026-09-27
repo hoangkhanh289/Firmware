@@ -1,0 +1,23 @@
+IoT Mesh Node Kit - Bộ Kit Mạng Không Dây Tự Tổ Chức
+
+[TỔNG QUAN]
+IoT Mesh Node Kit được phát triển dựa trên SoC Nordic nRF52840, hỗ trợ đa giao thức không dây tiên tiến nhất hiện nay: Thread, Zigbee 3.0 và Bluetooth 5.3 Low Energy. Thiết bị được tối ưu cho các mạng lưới cảm biến diện rộng có khả năng tự phục hồi đường truyền khi một nút gặp sự cố.
+
+[THÔNG SỐ KỸ THUẬT]
+- SoC điều khiển: Nordic Semiconductor nRF52840 (ARM Cortex-M4F 64MHz, FPU)
+- Bộ nhớ: 1MB Flash, 256KB RAM
+- Giao thức hỗ trợ: OpenThread, Zigbee PRO/3.0, BLE Mesh, Matter
+- Công suất phát sóng RF: Tối đa +8 dBm
+- Độ nhạy thu tín hiệu: -95 dBm (BLE 1Mbps), -100 dBm (Long range)
+- Nguồn cấp: 1.8V - 3.6V DC (tương thích pin cúc áo CR2032 hoặc pin LiPo 3.7V)
+- Dòng tiêu thụ chế độ ngủ sâu: < 1.5uA
+
+[TÍNH NĂNG NỔI BẬT]
+- Khả năng tự động định tuyến, mở rộng mạng lưới lên đến 250 nút mạng mà không cần router trung tâm đắt tiền.
+- Hỗ trợ công nghệ bảo mật mã hóa AES-128 phần cứng cấp độ doanh nghiệp.
+- Tích hợp chuẩn Matter tương thích trực tiếp với hệ sinh thái Apple HomeKit, Google Home.
+
+[ỨNG DỤNG TIÊU BIỂU]
+- Mạng cảm biến đo đạc môi trường đất, khí hậu nông nghiệp thông minh diện tích lớn.
+- Chiếu sáng thông minh và quản lý tòa nhà thương mại tiết kiệm năng lượng.
+- Định vị thiết bị và theo dõi tài sản trong kho bãi nhà xưởng (Asset Tracking).

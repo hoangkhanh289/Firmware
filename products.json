@@ -3,82 +3,82 @@
     {
       "id": "prod_001",
       "name": "ESP32 DevKit Pro",
-      "desc": "Bo mạch lõi kép ESP32-S3 240MHz, Wi-Fi & BLE 5.0, 38 GPIO, 8MB PSRAM. Tối ưu cho IoT và tạo mẫu công nghiệp.",
+      "desc": "Bo mạch lõi kép ESP32-S3 240MHz, Wi-Fi & BLE 5.0, 38 GPIO, 8MB PSRAM.",
+      "descFile": "/descriptions/prod_001.txt",
       "cost": 185000,
       "originalCost": 220000,
       "tag": "sale",
-      "image": "/images/pic01.jpg",
-      "link": "https://shopee.vn"
+      "image": "/images/pic01.jpg"
     },
     {
       "id": "prod_002",
       "name": "Modbus Gateway X4",
-      "desc": "Cổng chuyển đổi công nghiệp RS485/RS232 sang Ethernet. Hỗ trợ Modbus RTU/TCP, 4 cổng cách ly quang, nguồn 9-36V.",
+      "desc": "Cổng chuyển đổi công nghiệp RS485/RS232 sang Ethernet, 4 cổng cách ly quang.",
+      "descFile": "/descriptions/prod_002.txt",
       "cost": 890000,
       "originalCost": 1050000,
       "tag": "sale",
-      "image": "/images/pic02.jpg",
-      "link": "https://shopee.vn"
+      "image": "/images/pic02.jpg"
     },
     {
       "id": "prod_003",
       "name": "Firmware OTA Manager",
-      "desc": "Nền tảng cập nhật firmware từ xa an toàn cho thiết bị nhúng. Hỗ trợ cập nhật nén delta, tự khôi phục phân vùng A/B.",
+      "desc": "Nền tảng cập nhật firmware từ xa an toàn cho thiết bị nhúng.",
+      "descFile": "",
       "cost": 0,
       "originalCost": 0,
       "tag": "new",
-      "image": "/images/pic03.jpg",
-      "link": "/download"
+      "image": "/images/pic03.jpg"
     },
     {
       "id": "prod_004",
       "name": "Embedded Logger SDK",
-      "desc": "Thư viện ghi log hiệu năng cao cho C/C++ nhúng. Ring buffer zero-copy, hỗ trợ đầu ra UART, SEGGER RTT, UDP Syslog.",
+      "desc": "Thư viện ghi log hiệu năng cao cho C/C++ nhúng. Zero-copy ring buffer.",
+      "descFile": "",
       "cost": 0,
       "originalCost": 0,
       "tag": "",
-      "image": "/images/pic04.jpg",
-      "link": "/download"
+      "image": "/images/pic04.jpg"
     },
     {
       "id": "prod_005",
       "name": "PCB Signal Analyzer",
-      "desc": "Phần mềm hiển thị và phân tích tín hiệu thời gian thực từ logic analyzer và dao động ký. Giải mã SPI, I2C, UART.",
+      "desc": "Phần mềm hiển thị và phân tích tín hiệu thời gian thực từ logic analyzer.",
+      "descFile": "",
       "cost": 450000,
       "originalCost": 450000,
       "tag": "",
-      "image": "/images/pic05.jpg",
-      "link": "https://shopee.vn"
+      "image": "/images/pic05.jpg"
     },
     {
       "id": "prod_006",
       "name": "Device Provisioning CLI",
-      "desc": "Công cụ dòng lệnh nạp firmware hàng loạt cho nhà máy. Hỗ trợ nạp song song 50+ mạch, cấu hình chứng chỉ bảo mật.",
+      "desc": "Công cụ dòng lệnh nạp firmware hàng loạt cho nhà máy và ghi chứng chỉ.",
+      "descFile": "",
       "cost": 0,
       "originalCost": 0,
       "tag": "new",
-      "image": "/images/pic06.jpg",
-      "link": "/download"
+      "image": "/images/pic06.jpg"
     },
     {
       "id": "prod_007",
       "name": "RTOS Kernel Module",
-      "desc": "Nhân hệ điều hành thời gian thực đa nhiệm tiền thu hồi tối ưu cho ARM Cortex-M. Chuyển ngữ cảnh định thời dưới 850ns.",
+      "desc": "Nhân hệ điều hành thời gian thực tối ưu cho ARM Cortex-M đa nhiệm.",
+      "descFile": "",
       "cost": 0,
       "originalCost": 0,
       "tag": "",
-      "image": "/images/pic07.jpg",
-      "link": "/download"
+      "image": "/images/pic07.jpg"
     },
     {
       "id": "prod_008",
       "name": "IoT Mesh Node Kit",
-      "desc": "Bộ kit phần cứng mạng mesh tự tổ chức nRF52840. Chuẩn Thread/Zigbee 3.0, tiêu thụ năng lượng thấp, chuẩn công nghiệp.",
+      "desc": "Bộ kit phần cứng mạng mesh nRF52840 Thread/Zigbee 3.0 công nghiệp.",
+      "descFile": "/descriptions/prod_008.txt",
       "cost": 320000,
       "originalCost": 350000,
       "tag": "sale",
-      "image": "/images/pic08.jpg",
-      "link": "https://shopee.vn"
+      "image": "/images/pic08.jpg"
     }
   ]
 }

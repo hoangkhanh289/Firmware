@@ -1,0 +1,25 @@
+ESP32 DevKit Pro - Bo Mạch Phát Triển Nhúng Chuyên Nghiệp
+
+[TỔNG QUAN]
+ESP32 DevKit Pro là giải pháp phần cứng tối ưu dành cho các dự án IoT công nghiệp và thử nghiệm hệ thống nhúng. Trang bị vi điều khiển ESP32-S3 lõi kép Xtensa LX7 xung nhịp 240MHz, tích hợp tập lệnh tăng tốc tính toán AI và xử lý tín hiệu số DSP.
+
+[THÔNG SỐ KỸ THUẬT]
+- Vi điều khiển: ESP32-S3 (Dual-core 240MHz, 32-bit Xtensa LX7)
+- Bộ nhớ Flash: 16MB Quad SPI tốc độ cao
+- Bộ nhớ RAM: 8MB Octal PSRAM + 512KB SRAM nội bộ
+- Kết nối không dây: Wi-Fi 802.11 b/g/n (2.4GHz) & Bluetooth 5.0 LE / Mesh
+- Giao tiếp ngoại vi: 38 chân GPIO, 2x I2C, 3x SPI, 3x UART, 14x Touch, 2x 12-bit ADC
+- Cổng kết nối: USB Type-C kép (1 cổng nạp/UART, 1 cổng Native USB OTG)
+- Nguồn cấp: 5V qua cổng Type-C hoặc 3.3V qua chân header (LDO 3.3V 800mA)
+- Nhiệt độ hoạt động: -40°C đến +85°C chuẩn công nghiệp
+
+[TÍNH NĂNG NỔI BẬT]
+- Hỗ trợ nạp firmware trực tiếp qua giao diện Web Flasher chỉ với 1 cú click chuột.
+- Tương thích hoàn toàn với ESP-IDF, Arduino IDE, MicroPython và FreeRTOS.
+- Thiết kế mạch 4 lớp chống nhiễu ESD, bảo vệ quá dòng tự phục hồi trên đường nguồn.
+- Ăng-ten PCB tối ưu hóa độ lợi sóng, kết nối ổn định khoảng cách xa.
+
+[ỨNG DỤNG TIÊU BIỂU]
+- Bộ điều khiển Gateway IoT thu thập dữ liệu nhà máy và nông nghiệp công nghệ cao.
+- Thiết bị xử lý tín hiệu âm thanh và thị giác máy tính cục bộ (TinyML).
+- Thiết bị giám sát từ xa kết nối đám mây MQTT / HTTP / WebSocket.
