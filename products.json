@@ -8,7 +8,7 @@
       "cost": 185000,
       "originalCost": 220000,
       "tag": "sale",
-      "image": "/images/pic01.jpg"
+      "image": "/images/products/prod_001"
     },
     {
       "id": "prod_002",
@@ -18,7 +18,7 @@
       "cost": 890000,
       "originalCost": 1050000,
       "tag": "sale",
-      "image": "/images/pic02.jpg"
+      "image": "/images/products/prod_002"
     },
     {
       "id": "prod_003",
@@ -28,7 +28,7 @@
       "cost": 0,
       "originalCost": 0,
       "tag": "new",
-      "image": "/images/pic03.jpg"
+      "image": "/images/products/prod_003"
     },
     {
       "id": "prod_004",
@@ -38,7 +38,7 @@
       "cost": 0,
       "originalCost": 0,
       "tag": "",
-      "image": "/images/pic04.jpg"
+      "image": "/images/products/prod_004"
     },
     {
       "id": "prod_005",
@@ -48,7 +48,7 @@
       "cost": 450000,
       "originalCost": 450000,
       "tag": "",
-      "image": "/images/pic05.jpg"
+      "image": "/images/products/prod_005"
     },
     {
       "id": "prod_006",
@@ -58,7 +58,7 @@
       "cost": 0,
       "originalCost": 0,
       "tag": "new",
-      "image": "/images/pic06.jpg"
+      "image": "/images/products/prod_006"
     },
     {
       "id": "prod_007",
@@ -68,7 +68,7 @@
       "cost": 0,
       "originalCost": 0,
       "tag": "",
-      "image": "/images/pic07.jpg"
+      "image": "/images/products/prod_007"
     },
     {
       "id": "prod_008",
@@ -78,7 +78,7 @@
       "cost": 320000,
       "originalCost": 350000,
       "tag": "sale",
-      "image": "/images/pic08.jpg"
+      "image": "/images/products/prod_008"
     }
   ]
 }
